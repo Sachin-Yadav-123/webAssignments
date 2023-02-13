@@ -1,0 +1,118 @@
+body{
+    /* background-color: burlywood; */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+h2{
+    font-size: 30px;
+}
+h1, h2{
+    font-family: impact, serif;
+}
+.established{
+    font-style: italic;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+
+h1, h2, p{
+    text-align: center;
+
+}
+div{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.flavor{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+footer{
+    font-size: 14px;
+}
+.address{
+    margin-bottom: 5px;
+}
+
+
+/* body{
+   background: url('/image/golden_coffee_beans_204895.jpg');
+   font-family: 'Oswald', sans-serif;
+}
+
+.container{
+
+    background-color: rgb(248, 224, 164);
+   
+    width: 800px;
+    height: 800px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:10px 10px ;
+    text-align: center;
+    font-size: 30px;
+    
+}
+hr{
+   
+    height: 7px;
+    background-color:rgb(171, 64, 29)
+}
+.d3{
+    text-align: center;
+
+}
+span{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#ul1{
+    margin-left:-48px ;
+    display: float;
+    list-style-type: none;
+    float: left;
+
+}
+#ul2{
+    display: float;
+    list-style-type: none;
+    float: right;
+}
+.d5{
+    text-align: center;
+
+} */
