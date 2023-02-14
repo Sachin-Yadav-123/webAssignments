@@ -1,0 +1,10 @@
+.container{
+    background-color: black;
+    width: 700px;
+    height: 700px;
+    margin: 15px;
+    padding: 20px;
+}
+h1{
+    color: white;
+}
