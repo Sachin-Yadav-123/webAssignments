@@ -1,0 +1,50 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+    <meta charset="utf-8">  
+    <title>  
+         Calculator using HTML Example  
+    </title>  
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="/style.css">  
+</head>  
+<body>   
+    <form name="Calculator" class = "calculator" >  
+<table  align="center" cellpadding="15" cellspacing="12" >  
+<tr>  
+<td> 
+<input type="button" class ="btnTop" style="font-size:30px; background-color:#ffd065; color:#938184;" value=" C " OnClick="Calculator.Input.value = ''">  
+<input type="text"style="border-radius:7%; margin-top:20px; height=50px; box-shadow: 0px -5px 3px 2px #111;" value="0" name="Input" Size="35" id="display">  
+<br>  
+</td>  
+</tr>  
+<tr>  
+<td>  
+<input type="button"  style="font-size:30px" value=" 7 " OnClick="Calculator.Input.value += '7'">  
+<input type="button"  style = "font-size:30px" value=" 8 " OnCLick="Calculator.Input.value += '8'">  
+<input type="button" style="font-size:30px" value=" 9 " OnClick="Calculator.Input.value += '9'">  
+<input type="button" class ="btnTop" style="font-size:30px; background-color:#ffd065; color:#938184;" value=" X " OnClick="Calculator.Input.value += ' * '">  
+<br>  
+<input type="button"  style="font-size:30px" value=" 4 " OnClick="Calculator.Input.value += '4'">  
+<input type="button"  style="font-size:30px" value=" 5 " OnCLick="Calculator.Input.value += '5'">  
+<input type="button" style="font-size:30px" value=" 6 " OnClick="Calculator.Input.value += '6'">  
+<input type="button" style="font-size:30px; background-color: #ffd065; color: #938184;" value=" / " OnClick="Calculator.Input.value += ' / '">  
+<br>  
+<input type="button"  style="font-size:30px" value=" 1 " OnClick="Calculator.Input.value += '1'">  
+<input type="button"  style="font-size:30px" value=" 2 " OnCLick="Calculator.Input.value += '2'">  
+<input type="button" style="font-size:30px" value=" 3 " OnClick="Calculator.Input.value += '3'">  
+<input type="button" style="font-size:30px; background-color:#ffd065; color:#938184;" value=" + "   
+OnClick="Calculator.Input.value += ' + '">  
+<br>  
+<input type="button" style="font-size:30px" value=" . " OnClick="Calculator.Input.value = '.'">  
+<input type="button"  style="font-size:30px" value=" 0 " OnClick="Calculator.Input.value += '0'">  
+<input type="button"  style="font-size:30px; color:#938184; background-color: #04bda3" value=" = " OnClick="Calculator.Input.value = eval(Calculator.Input.value)">  
+<input type="button" style="font-size:30px; background-color:#ffd065; color:#938184;" value=" - " OnClick="Calculator.Input.value += ' - '">  
+<br>  
+</td>  
+  
+</tr>  
+</table>  
+</form>  
+</body>  
+</html>  
