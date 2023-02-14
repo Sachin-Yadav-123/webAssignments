@@ -1,30 +1,52 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Subscribe form</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<style>
+
+</style>
 <body>
-    <div class="container">
-        <h1 id="title">Subscribe to MammothNews</h1>
-        <form id="form">
-            <div class="form-element">
-                <input type="text" id="name" name="name" placeholder="Name*">
+    <div class="maincontainer">
+        <div class="titltcontainer">
+            <p><b>Subscribe to MammothNews</b></p>
+        </div>
+        <div class="datacontainer">
+            <div class="dataContainer-name">
+                <input type="text" name="" id="" placeholder="    Name*" required>
             </div>
-            <div class="form-element">
-                <input type="text" id="name" name="name" placeholder="Surname*">
-
+            <div class="dataContainer-surname">
+                <input type="text" name="" id="" placeholder="    Surname*" required>
             </div>
-            <div class="form-element">
-                <input type="email" id="email" name="email" placeholder="Email*">
+            <div class="dataContainer-email">
+                <input type="email" name="" id="" placeholder="    Email*" required>
             </div>
-            <div class="form-element">
-                <input type="date" id="date" name="date" placeholder="Birthday*">
+            <div class="dataContainer-dateOfBirth">
+                <input type="text" name="" id="" placeholder="    BirthDay*" required>
+               
             </div>
-
-        </form>
+            
+        </div>
+        <div class="checkboxContainer">
+            
+            <div class="checkboxContainerBox">
+                <input type="checkbox" class="checkbox-round" name="" id="">
+            </div>
+            <div class="checkboxContainerSentance">
+                <label>I have read and accept the terms and
+                    condition.<u>View our Terms and Condition.</u>
+                </label>
+            </div>
+        </div>
+        <div class="submitButtonContainer">
+            <div class="submitButtonContainerButtonDiv">
+                <button type="button">Submit</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
